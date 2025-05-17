@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .image-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .report-image {
+        max-width: 100%;
+        height: auto;
+        /* For fixed dimensions, use: */
+        /* width: 500px; */
+        /* height: 300px; */
+        border: 1px solid #ddd; /* Optional border */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Test PDF Report</h1>
+    <div class="image-container">
+      <img 
+        class="report-image" 
+        src="http://localhost:8018/client_requirement_collection/static/img/office.jpg" 
+        alt="Office Image"
+        /* Fixed size example: */
+        /* width="600" */
+        /* height="400" */
+      />
+    </div>
+    <p>Image should now display with proper dimensions in the PDF.</p>
+  </body>
+</html>
